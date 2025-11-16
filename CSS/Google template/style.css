@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+    background: #fefefe;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel {
+    background: #fff;
+    width: 85%;
+    max-width: 900px;
+    padding: 25px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    width: 42px;
+    height: 42px;
+}
+
+.content-area {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.text-block h1 {
+    font-size: 30px;
+}
+
+.text-block h3 {
+    font-size: 16px;
+    color: #444;
+    margin-top: 8px;
+}
+
+.form-block {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 90%;
+}
+
+.form-block input {
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 7px;
+    outline: none;
+}
+
+.btn-next {
+    align-self: flex-end;
+    background: royalblue;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-next:hover {
+    background: #2f5ec5;
+}
+
+.footer-box {
+    margin-top: 15px;
+    width: 85%;
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+}
+
+.lang-select {
+    padding: 5px 8px;
+    border-radius: 4px;
+    border: none;
+    background: transparent;
+    font-size: 15px;
+}
+
+.footer-links span {
+    margin-left: 12px;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.footer-links span:hover {
+    background: #cde5f3;
+}
+
+
+@media (max-width: 768px) {
+    .content-area {
+        flex-direction: column;
+        text-align: center;
+    }
+    .form-block {
+        width: 100%;
+    }
+
+    .panel {
+        width: 95%;
+        padding: 8px;
+    }
+
+    .footer-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-block h1 {
+        font-size: 26px;
+    }
+    .panel{
+        padding: 5px;
+    }
+    .form-block input {
+        font-size: 14px;
+    }
+
+    .btn-next {
+        align-self: center;
+        width: 90px;
+    }
+}
