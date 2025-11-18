@@ -3,137 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Palette Grid</title>
+    <title>Palette Display</title>
     <link rel="stylesheet" href="style.css">
-
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@300;400&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
-
 <body>
     <header class="topbar">
-        <a href="../index.html" class="nav-link">
-            <span class="material-symbols-outlined">chevron_left</span>
+        <a class="return" href="../index.html">
+            <span class="material-symbols-outlined">arrow_back</span>
             <span>Return</span>
         </a>
 
-        <button class="format-btn">
-            HEX Format (#AA1923)
-        </button>
+        <button class="hexButton">HEX Format Copy</button>
 
-        <div class="sound-toggle">
-            <span>Audio</span>
+        <div class="soundBox">
+            <span>Enable Sound</span>
             <span class="material-symbols-outlined">volume_up</span>
         </div>
     </header>
 
-    <section class="palette-wrapper">
+    <section class="paletteArea">
 
-        <div class="color-row">
-            <div class="shade" style="background:#f6e58d;">
-                <span class="label">BEEKEEPER</span>
-                <span class="tap">Copy</span>
+        <div class="row">
+            <div class="tile" style="background:#f6e58d;">
+                <p class="label">BEEKEPER</p>
+                <span class="clickCopy">COPY</span>
             </div>
 
-            <div class="shade" style="background:#ffbe76;">
-                <span class="label">SPICED NECTARINE</span>
-                <span class="tap">Copy</span>
+            <div class="tile" style="background:#ffbe76;">
+                <p class="label">SPICED NECTARINE</p>
+                <span class="clickCopy">COPY</span>
             </div>
 
-            <div class="shade" style="background:#ff7979;">
-                <span class="label">PINK GLAMOUR</span>
-                <span class="tap">Copy</span>
+            <div class="tile" style="background:#ff7979;">
+                <p class="label">PINK GLAMOUR</p>
+                <span class="clickCopy">COPY</span>
             </div>
 
-            <div class="shade" style="background:#badc58;">
-                <span class="label">JUNE BUD</span>
-                <span class="tap">Copy</span>
+            <div class="tile" style="background:#badc58;">
+                <p class="label">JUNE BUD</p>
+                <span class="clickCopy">COPY</span>
             </div>
 
-            <div class="shade" style="background:#dff9fb;">
-                <span class="label">COASTAL BREEZE</span>
-                <span class="tap">Copy</span>
+            <div class="tile" style="background:#dff9fb;">
+                <p class="label">COASTAL BREEZE</p>
+                <span class="clickCopy">COPY</span>
             </div>
         </div>
 
-        <div class="color-row">
-            <div class="shade" style="background:#f9ca24;">
-                <span class="label">TURBO</span>
-                <span class="tap">Copy</span>
+        <div class="row">
+            <div class="tile" style="background:#f9ca24;">
+                <p class="label">TURBO</p>
+                <span class="clickCopy">COPY</span>
             </div>
 
-            <div class="shade" style="background:#f0932b;">
-                <span class="label">QUINCE JELLY</span>
-                <span class="tap">Copy</span>
+            <div class="tile" style="background:#f0932b;">
+                <p class="label">QUINCE JELLY</p>
+                <span class="clickCopy">COPY</span>
             </div>
 
-            <div class="shade" style="background:#eb4d4b;">
-                <span class="label">CARMINE PINK</span>
-                <span class="tap">Copy</span>
+            <div class="tile" style="background:#eb4d4b;">
+                <p class="label">CARMINE PINK</p>
+                <span class="clickCopy">COPY</span>
             </div>
 
-            <div class="shade" style="background:#6ab04c;">
-                <span class="label">PURE APPLE</span>
-                <span class="tap">Copy</span>
+            <div class="tile" style="background:#6ab04c;">
+                <p class="label">PURE APPLE</p>
+                <span class="clickCopy">COPY</span>
             </div>
 
-            <div class="shade" style="background:#c7ecee;">
-                <span class="label">ICE PACK</span>
-                <span class="tap">Copy</span>
+            <div class="tile" style="background:#c7ecee;">
+                <p class="label">HIT OF ICE PACK</p>
+                <span class="clickCopy">COPY</span>
             </div>
         </div>
-        <div class="color-row">
-            <div class="shade" style="background:#f9ca24;">
-                <span class="label">TURBO</span>
-                <span class="tap">Copy</span>
+
+         <div class="row">
+            <div class="tile" style="background:#f9ca24;">
+                <p class="label">TURBO</p>
+                <span class="clickCopy">COPY</span>
             </div>
 
-            <div class="shade" style="background:#f0932b;">
-                <span class="label">QUINCE JELLY</span>
-                <span class="tap">Copy</span>
+            <div class="tile" style="background:#f0932b;">
+                <p class="label">QUINCE JELLY</p>
+                <span class="clickCopy">COPY</span>
             </div>
 
-            <div class="shade" style="background:#eb4d4b;">
-                <span class="label">CARMINE PINK</span>
-                <span class="tap">Copy</span>
+            <div class="tile" style="background:#eb4d4b;">
+                <p class="label">CARMINE PINK</p>
+                <span class="clickCopy">COPY</span>
             </div>
 
-            <div class="shade" style="background:#6ab04c;">
-                <span class="label">PURE APPLE</span>
-                <span class="tap">Copy</span>
+            <div class="tile" style="background:#6ab04c;">
+                <p class="label">PURE APPLE</p>
+                <span class="clickCopy">COPY</span>
             </div>
 
-            <div class="shade" style="background:#c7ecee;">
-                <span class="label">ICE PACK</span>
-                <span class="tap">Copy</span>
+            <div class="tile" style="background:#c7ecee;">
+                <p class="label">HIT OF ICE PACK</p>
+                <span class="clickCopy">COPY</span>
             </div>
         </div>
-        <div class="color-row">
-            <div class="shade" style="background:#f9ca24;">
-                <span class="label">TURBO</span>
-                <span class="tap">Copy</span>
+
+         <div class="row">
+            <div class="tile" style="background:#f9ca24;">
+                <p class="label">TURBO</p>
+                <span class="clickCopy">COPY</span>
             </div>
 
-            <div class="shade" style="background:#f0932b;">
-                <span class="label">QUINCE JELLY</span>
-                <span class="tap">Copy</span>
+            <div class="tile" style="background:#f0932b;">
+                <p class="label">QUINCE JELLY</p>
+                <span class="clickCopy">COPY</span>
             </div>
 
-            <div class="shade" style="background:#eb4d4b;">
-                <span class="label">CARMINE PINK</span>
-                <span class="tap">Copy</span>
+            <div class="tile" style="background:#eb4d4b;">
+                <p class="label">CARMINE PINK</p>
+                <span class="clickCopy">COPY</span>
             </div>
 
-            <div class="shade" style="background:#6ab04c;">
-                <span class="label">PURE APPLE</span>
-                <span class="tap">Copy</span>
+            <div class="tile" style="background:#6ab04c;">
+                <p class="label">PURE APPLE</p>
+                <span class="clickCopy">COPY</span>
             </div>
 
-            <div class="shade" style="background:#c7ecee;">
-                <span class="label">ICE PACK</span>
-                <span class="tap">Copy</span>
+            <div class="tile" style="background:#c7ecee;">
+                <p class="label">HIT OF ICE PACK</p>
+                <span class="clickCopy">COPY</span>
             </div>
         </div>
+
+        
 
     </section>
 </body>
