@@ -1,5 +1,9 @@
+
 * {
     box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
 }
 body {
     margin: 0;
@@ -14,6 +18,7 @@ body {
     justify-content: space-between; 
     align-items: center;
     background-color: #333333; 
+    position: fixed;
     height: 44px; 
     padding: 0 20px;
     font-size: 12px;
@@ -100,9 +105,9 @@ body {
 }
 
 /* Background Images - Apni images yahan lagayein (Dummy names used) */
-#banner-sale { background-image: url('./large\ image/hero_holiday_2025__gg4r7ioqlj2i_mediumtall_2x.jpg'); }
-#banner-phone { background-image: url('./large\ image/hero_iphone_family__fuz5j2v5xx6y_mediumtall_2x.jpg'); }
-#banner-laptop { background-image: url('./large\ image/hero_airpodspro_3__dn7gz4l22ree_mediumtall_2x.jpg'); }
+#banner-sale { background-image: url('./large_image/hero_holiday_2025__gg4r7ioqlj2i_mediumtall_2x.jpg'); }
+#banner-phone { background-image: url('./large_image/hero_iphone_family__fuz5j2v5xx6y_mediumtall_2x.jpg'); }
+#banner-laptop { background-image: url('./large_image/hero_airpodspro_3__dn7gz4l22ree_mediumtall_2x.jpg'); }
 
 
 /* Text Color Variants */
@@ -148,12 +153,12 @@ body {
 }
 
 /* Grid Item Backgrounds (Apni images yahan lagayein) */
-#grid-gift { background-image: url('./large\ image/promo_ipad_air_avail__6i02t7nujr62_large_2x.jpg'); color: #1d1d1f; }
-#grid-audio { background-image: url('./large\ image/promo_apple_watch_series_11__b63hxviqvonm_medium_2x.jpg'); color:#000; }
-#grid-tablet { background-image: url('./large\ image/promo_ipad__fioegapg12qi_medium_2x.jpg'); color: #000; }
-#grid-watch { background-image: url('./large\ image/promo_macbook_air__fqowrtnxewqe_medium_2x.jpg'); color: #1d1d1f; }
-#grid-tradein { background-image: url('./large\ image/promo_iphone_tradein__bugw15ka691e_medium_2x.jpg'); color: #1d1d1f; }
-#grid-finance { background-image: url('./large\ image/promo_apple_card__5cm7draujpey_medium_2x.jpg'); color: #000; }
+#grid-gift { background-image: url('./large_image/promo_ipad_air_avail__6i02t7nujr62_large_2x.jpg'); color: #1d1d1f; }
+#grid-audio { background-image: url('./large_image/promo_apple_watch_series_11__b63hxviqvonm_medium_2x.jpg'); color:#000; }
+#grid-tablet { background-image: url('./large_image/promo_ipad__fioegapg12qi_medium_2x.jpg'); color: #000; }
+#grid-watch { background-image: url('./large_image/promo_macbook_air__fqowrtnxewqe_medium_2x.jpg'); color: #1d1d1f; }
+#grid-tradein { background-image: url('./large_image/promo_iphone_tradein__bugw15ka691e_medium_2x.jpg'); color: #1d1d1f; }
+#grid-finance { background-image: url('./large_image/promo_apple_card__5cm7draujpey_medium_2x.jpg'); color: #000; }
 
 .grid-item .promo-title {
     font-size: 40px;
@@ -401,7 +406,7 @@ body {
         gap: 0;
     }
     #grid-gift 
-    { background-image: url('./small\ screen/promo_ipad_air_avail__6i02t7nujr62_medium_2x.jpg');
+    { background-image: url('./small_screen/promo_ipad_air_avail__6i02t7nujr62_medium_2x.jpg');
     background-position: center; 
     background-size: cover;
     }
