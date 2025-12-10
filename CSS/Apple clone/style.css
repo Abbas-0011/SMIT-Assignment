@@ -257,7 +257,8 @@ body {
     background-color: #e0e0e0;
 }
 .carousel{
-    padding: 5px;
+    width: auto
+    /* padding: 5px; */
 }
 /* General Styling & Variables */
 .site-end-section {
@@ -381,9 +382,17 @@ body {
     display: block; 
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     body{
         width: 100%;
+    }
+    .site-end-section {
+        width: auto;
+        padding: 0 10px; 
+    }
+    .grid-item, .promo-banner {
+        width: 100%;
+        max-width: 100%; /* Ensure they don't exceed the parent width */
     }
 
     .main-link-grid-container {
